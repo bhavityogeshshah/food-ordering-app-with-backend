@@ -47,7 +47,7 @@ export default function Cart() {
           Close
         </Button>
         {cartCtx.items.length > 0 && (
-          <Button onClick={handleGoToCheckOut}>Checkout</Button>
+          <Button onClick={handleGoToCheckOut}>Proceed Checkout</Button>
         )}
       </p>
     </Modal>
